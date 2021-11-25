@@ -12,7 +12,7 @@ public class Person {
     }
 
     void printPerson() {
-        System.out.println(String.format("Name: %s \nAge: %d\nSalary: %f", this.name, this.age, this.salary));
+        System.out.printf("Name: %s \nAge: %d\nSalary: %f%n", this.name, this.age, this.salary);
     }
 
     public static void main(String[] args) {

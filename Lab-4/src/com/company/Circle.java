@@ -17,7 +17,7 @@ public class Circle {
     }
 
     void printCircleInformation() {
-        System.out.println(String.format("Center: (%d, %d), Radius: %f", centerX, centerY, radius));
+        System.out.printf("Center: (%d, %d), Radius: %f%n", centerX, centerY, radius);
     }
 
     public static void main(String[] args) {
